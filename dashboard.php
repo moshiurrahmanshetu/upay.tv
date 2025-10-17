@@ -1,19 +1,24 @@
 <?php include __DIR__.'/includes/header.php'; ?>
 
-<section class="container my-4">
-	<div class="d-flex align-items-center justify-content-between mb-3">
-		<h2 class="mb-0">Dashboard</h2>
-		<div class="d-flex gap-2">
-			<a href="#" class="btn btn-primary" data-create-ad><i class="fa fa-plus"></i> Create Ad</a>
-			<a href="/create-ad.php" class="btn btn-outline-secondary">Advanced</a>
+<section class="section section-primary">
+	<div class="container">
+		<div class="d-flex align-items-center justify-content-between">
+			<h2 class="mb-0">Dashboard</h2>
+			<div class="d-flex gap-2">
+				<a href="#" class="btn btn-light text-dark" data-create-ad><i class="fa fa-plus"></i> Create Ad</a>
+				<a href="/create-ad.php" class="btn btn-outline-light">Advanced</a>
+			</div>
 		</div>
 	</div>
+</section>
+
+<section class="container my-4">
 	<div class="row g-4">
 		<div class="col-md-4">
-			<div class="card p-4 h-100">
+			<div class="card p-4 h-100" style="background:linear-gradient(135deg, rgba(108,99,255,.12), rgba(0,196,179,.12));">
 				<h6 class="text-muted">Balance</h6>
 				<div class="display-6">$120.40</div>
-				<a href="/buy-credit.php" class="btn btn-success mt-3">Buy Credit</a>
+				<a href="/buy-credit.php" class="btn btn-gradient mt-3">Buy Credit</a>
 			</div>
 		</div>
 		<div class="col-md-8">
@@ -21,7 +26,7 @@
 				<h6 class="mb-3">Quick Shorten</h6>
 				<div class="input-group">
 					<input type="url" class="form-control" placeholder="Paste a long URL here">
-					<button class="btn btn-primary">Shorten</button>
+					<button class="btn btn-gradient">Shorten</button>
 				</div>
 			</div>
 		</div>
@@ -31,7 +36,7 @@
 			<h5>Recent Links</h5>
 		</div>
 		<div class="col-lg-6">
-			<div class="card p-3">
+				<div class="card p-3" style="border-left:4px solid var(--brand-primary);">
 				<div class="d-flex justify-content-between align-items-center">
 					<div>
 						<div class="fw-semibold">/go/abc123</div>
@@ -45,7 +50,7 @@
 			</div>
 		</div>
 		<div class="col-lg-6">
-			<div class="card p-3">
+				<div class="card p-3" style="border-left:4px solid var(--brand-accent);">
 				<div class="d-flex justify-content-between align-items-center">
 					<div>
 						<div class="fw-semibold">/go/xyz987</div>
@@ -62,7 +67,7 @@
 			<h5>Your Ads</h5>
 		</div>
 		<div class="col-lg-4">
-			<div class="card p-3 h-100">
+				<div class="card p-3 h-100" style="background:linear-gradient(135deg, #fff, #f3f0ff);">
 				<h6 class="mb-1">Summer Sale</h6>
 				<p class="small text-muted mb-2">Get 50% off on selected items.</p>
 				<div class="d-flex justify-content-between small">
@@ -73,7 +78,7 @@
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="card p-3 h-100">
+				<div class="card p-3 h-100" style="background:linear-gradient(135deg, #fff, #eefcfb);">
 				<h6 class="mb-1">New App Launch</h6>
 				<p class="small text-muted mb-2">Try our productivity app.</p>
 				<div class="d-flex justify-content-between small">
@@ -84,7 +89,7 @@
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="card p-3 h-100">
+				<div class="card p-3 h-100" style="background:linear-gradient(135deg, #fff, #fff0f7);">
 				<h6 class="mb-1">Webinar Signup</h6>
 				<p class="small text-muted mb-2">Join our growth webinar.</p>
 				<div class="d-flex justify-content-between small">

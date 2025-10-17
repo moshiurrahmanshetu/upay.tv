@@ -1,8 +1,14 @@
 <?php include __DIR__.'/includes/header.php'; ?>
 
+<section class="section section-primary">
+	<div class="container">
+		<h2 class="mb-2">Create Ad</h2>
+		<p class="opacity-75 mb-0">Launch a new promotion in minutes.</p>
+	</div>
+</section>
+
 <section class="container my-4">
-	<h2 class="mb-3">Create Ad</h2>
-	<div class="card p-4">
+    <div class="card p-4 shadow-soft">
 		<form>
 			<div class="mb-3">
 				<label class="form-label">Title</label>
@@ -20,8 +26,8 @@
 				<label class="form-label">Image (optional)</label>
 				<input type="file" class="form-control" accept="image/*">
 			</div>
-			<button type="button" class="btn btn-primary">Submit</button>
-			<a href="/dashboard.php" class="btn btn-outline-secondary">Back to Dashboard</a>
+            <button type="button" class="btn btn-gradient">Submit</button>
+            <a href="/dashboard.php" class="btn btn-outline-secondary">Back to Dashboard</a>
 		</form>
 	</div>
 </section>

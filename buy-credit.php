@@ -1,7 +1,13 @@
 <?php include __DIR__.'/includes/header.php'; ?>
 
+<section class="section section-primary">
+	<div class="container">
+		<h2 class="mb-2">Buy Credit</h2>
+		<p class="opacity-75 mb-0">Choose a plan and boost your campaigns instantly.</p>
+	</div>
+</section>
+
 <section class="container my-4 pricing">
-	<h2 class="mb-4">Buy Credit</h2>
 	<div class="row g-4">
 		<div class="col-md-4">
 			<div class="plan p-4 text-center">

@@ -5,7 +5,7 @@ body{background:var(--brand-bg); color:var(--brand-text); font-family:var(--font
 .main-nav .btn{border-radius:var(--radius-sm)}
 .page-content .card{border:0; border-radius:var(--radius-lg); box-shadow:var(--brand-shadow)}
 .hero{
-	background:linear-gradient(140deg, var(--brand-primary) 0%, var(--brand-accent) 100%);
+	background:var(--grad-primary);
 	color:#fff; border-radius:var(--radius-lg); box-shadow:var(--brand-shadow)
 }
 .hero .btn{border-radius:var(--radius-md)}
@@ -16,4 +16,24 @@ body{background:var(--brand-bg); color:var(--brand-text); font-family:var(--font
 /* Mobile More menu animation */
 #moreMenu{transition:max-height .3s ease, opacity .2s ease}
 .show-more #moreMenu{display:block !important}
+
+/* Colored sections */
+.section{padding:56px 0}
+.section-surface{background:var(--brand-surface)}
+.section-primary{background:var(--grad-primary); color:#fff}
+.section-accent{background:var(--grad-accent); color:#fff}
+.badge-soft{background:rgba(255,255,255,.18); color:#fff; border-radius:999px; padding:6px 12px}
+.icon-chip{width:42px; height:42px; display:inline-flex; align-items:center; justify-content:center; border-radius:12px}
+.icon-indigo{background:rgba(108, 99, 255, .12); color:var(--brand-primary)}
+.icon-teal{background:rgba(0, 196, 179, .12); color:var(--brand-accent)}
+.icon-pink{background:rgba(255, 122, 182, .12); color:var(--brand-secondary)}
+.stat-tile{border-radius:var(--radius-xl); background:var(--brand-surface); box-shadow:var(--brand-shadow); padding:20px}
+.shadow-soft{box-shadow:var(--brand-shadow)}
+.rounded-xl{border-radius:var(--radius-xl)}
+.btn-gradient{background:var(--grad-accent); color:#fff; border:0}
+.btn-gradient:hover{opacity:.9}
+
+/* Testimonials */
+.testimonial{background:var(--brand-surface); border-radius:var(--radius-lg); box-shadow:var(--brand-shadow); padding:20px}
+.testimonial .avatar{width:44px; height:44px; border-radius:50%; background:linear-gradient(135deg,#e0e7ff,#ffe4f1)}
 
