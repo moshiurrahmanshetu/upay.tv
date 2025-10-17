@@ -10,14 +10,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
-	<link rel="stylesheet" href="/assets/css/variables.css">
-	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="/assets/variables.css">
+	<link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
 	<header class="site-header border-bottom bg-white">
 		<div class="container py-2 d-flex align-items-center justify-content-between">
 			<a href="/index.php" class="d-inline-flex align-items-center gap-2 text-decoration-none">
-				<img src="/logo.png" alt="uPay Ad network" height="40">
+				<img src="../assets/logo.png" alt="uPay Ad network" height="40">
 			</a>
 			<div class="headlink d-none d-md-flex gap-3">
 				<a href="/user-login.php"><i class="fa fa-lock"></i> Login</a>
