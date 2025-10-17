@@ -1,0 +1,19 @@
+html,body{height:100%}
+body{background:var(--brand-bg); color:var(--brand-text); font-family:var(--font-sans)}
+.site-header .headlink a{color:var(--brand-primary); text-decoration:none; transition:var(--transition)}
+.site-header .headlink a:hover{opacity:.8}
+.main-nav .btn{border-radius:var(--radius-sm)}
+.page-content .card{border:0; border-radius:var(--radius-lg); box-shadow:var(--brand-shadow)}
+.hero{
+	background:linear-gradient(140deg, var(--brand-primary) 0%, var(--brand-accent) 100%);
+	color:#fff; border-radius:var(--radius-lg); box-shadow:var(--brand-shadow)
+}
+.hero .btn{border-radius:var(--radius-md)}
+.pricing .plan{background:var(--brand-surface); border-radius:var(--radius-lg); box-shadow:var(--brand-shadow); transition:var(--transition)}
+.pricing .plan:hover{transform:translateY(-2px)}
+.site-footer a{color:var(--brand-muted); text-decoration:none}
+.site-footer a:hover{color:var(--brand-primary)}
+/* Mobile More menu animation */
+#moreMenu{transition:max-height .3s ease, opacity .2s ease}
+.show-more #moreMenu{display:block !important}
+
