@@ -5,6 +5,8 @@
 		moreToggle.addEventListener('click',function(){
 			if(moreMenu.classList.contains('d-none')){
 				moreMenu.classList.remove('d-none');
+				moreMenu.classList.remove('d-none');
+				moreMenu.style.display = 'block';
 			}else{
 				moreMenu.classList.add('d-none');
 			}

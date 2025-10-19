@@ -1,5 +1,5 @@
-	</main>
-	<footer class="site-footer mt-5 bg-white border-top">
+
+	<footer class="site-footer mt-5 border-top">
 		<div class="container py-5">
 			<div class="row g-4">
 				<div class="col-md-3">
@@ -43,7 +43,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container text-center py-3 small text-muted">
+		<div class="container text-center py-3 small copyright">
 			<hr>
 			CopyRight CMS 2025 || <a href="/terms-and-conditions.php">Terms of Condition</a> | <a href="/privacy-policy.php">Privacy Policy</a> | <a href="/contact.php">Contact Us</a>
 		</div>
@@ -83,8 +83,7 @@
 	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="/assets/main.js"></script>
-</body>
-</html>
+	
 
