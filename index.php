@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
 	<link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
@@ -107,7 +108,182 @@
 	</div>
 </section>
 
+<section class="intro-section">
+  <h2 class="section-title" data-aos="fade-up">Earn Money by Shortening your links</h2>
+  <div class="container mt-5">
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="feature-card p-4 text-center">
+          <i class="fa fa-link"></i>
+          <h5>01. Squeeze Link</h5>
+          <p>Shorten a popular link, movie link, viral link, or music link. Anything people want to watch or check out!</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="feature-card p-4 text-center">
+          <i class="fa fa-share-alt"></i>
+          <h5>02. Share</h5>
+          <p>Share with social media audiences — people who love content in groups, pages, and videos.</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="feature-card p-4 text-center">
+          <i class="fa fa-dollar-sign"></i>
+          <h5>03. Earn Money</h5>
+          <p>Get paid for every user visit — view, click, or conversion. Simple and transparent.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-box mt-5" data-aos="zoom-in">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-5 mb-3 mb-md-0">
+          <p class="mb-2">Already have an account?</p>
+          <a href="#" class="btn btn-primary">Login <i class="fa fa-arrow-right ms-1"></i></a>
+        </div>
+        <div class="col-md-5">
+          <p class="mb-2">New to uPay.tv?</p>
+          <a href="#" class="btn btn-outline-primary">Join Now <i class="fa fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Info Section -->
+<section class="info-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8" data-aos="fade-up">
+        <div class="row">
+          <div class="col-md-6 info-box">
+            <h5>Earn Maximum</h5>
+            <p>We deliver the best mix of impression ads, click ads, and conversion ads for maximum income.</p>
+          </div>
+          <div class="col-md-6 info-box">
+            <h5>Fraud Control</h5>
+            <p>We block bots and bad users to ensure genuine traffic and faster system performance.</p>
+          </div>
+          <div class="col-md-6 info-box">
+            <h5>Integrated CPA</h5>
+            <p>Get up to 40% commission from every CPA sale advertiser — 5x higher than standard text ads.</p>
+          </div>
+          <div class="col-md-6 info-box">
+            <h5>CTA Button</h5>
+            <p>We use click-to-action buttons for more genuine clicks, boosting advertiser satisfaction and ROI.</p>
+          </div>
+          <div class="col-md-6 info-box">
+            <h5>High ROI</h5>
+            <p>Advertisers found uPay.tv as a genuine source of traffic that delivers better business outcomes.</p>
+          </div>
+          <div class="col-md-6 info-box">
+            <h5>Experience Matters</h5>
+            <p>With over a decade in digital advertising, we make it win-win for both advertisers and publishers.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4" data-aos="fade-left">
+        <div class="info-box">
+          <h5>Get US Number</h5>
+          <p>From top websites, you can get a US number to use on WhatsApp, Telegram, or other apps.</p>
+        </div>
+        <div class="info-box">
+          <h5>Live Webcam Date</h5>
+          <p>This viral platform enables fun webcam dating — safer, faster, and easier to connect.</p>
+        </div>
+        <div class="info-box">
+          <h5>Offer of the Month</h5>
+          <ul class="offer-list">
+            <li>Offer 1</li>
+            <li>Offer 2</li>
+            <li>Offer 3</li>
+            <li>Offer 4</li>
+            <li>Offer 5</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+
+h2.section-title {
+      text-align: center;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+    .intro-section {
+      text-align: center;
+      padding: 80px 20px 50px;
+      background: linear-gradient(180deg, var(--secondary-color), #fff);
+    }
+    .feature-card {
+      border: none;
+      border-radius: 16px;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+    .feature-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    .feature-card i {
+      color: var(--primary-color);
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+    .cta-box {
+      background-color: #f3ecff;
+      border-radius: 16px;
+      padding: 25px;
+      text-align: center;
+      margin: 50px 0;
+    }
+    .cta-box .btn {
+      border-radius: 30px;
+      padding: 10px 25px;
+      font-weight: 500;
+    }
+    .info-section {
+      padding: 60px 20px;
+    }
+    .info-section h5 {
+      font-weight: 600;
+      color: var(--primary-color);
+      margin-bottom: 10px;
+    }
+    .info-section p {
+      font-size: 15px;
+      color: #555;
+    }
+    .info-box {
+      margin-bottom: 25px;
+    }
+    .offer-list li {
+      list-style: none;
+      color: #444;
+    }
+    .offer-list li::before {
+      content: "• ";
+      color: var(--primary-color);
+    }
+    [data-aos] {
+      transition: all 0.7s ease-in-out;
+    }
+  </style>
+
 <?php include __DIR__.'/includes/footer.php'; ?>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 900,
+    once: true,
+  });
+</script>
 </body>
 </html>
