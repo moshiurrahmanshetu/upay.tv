@@ -16,6 +16,7 @@
 
 <?php include __DIR__.'/includes/header.php'; ?>
 
+
 <section class="section section-primary">
 	<div class="container">
 		<h2 class="mb-2">Bot Control</h2>

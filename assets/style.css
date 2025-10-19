@@ -43,7 +43,7 @@ body{background:var(--brand-bg); color:var(--brand-text); font-family:var(--font
 .card{border:0; border-radius:var(--radius-lg); box-shadow:var(--brand-shadow)}
 .hero{
 	background:var(--grad-primary);
-	color:#fff; border-radius:var(--radius-lg); box-shadow:var(--brand-shadow)
+	color:#fff; border-radius: 0 0 15px 15px; box-shadow:var(--brand-shadow)
 }
 .hero .btn{border-radius:var(--radius-md)}
 .pricing .plan{background:var(--brand-surface); border-radius:var(--radius-lg); box-shadow:var(--brand-shadow); transition:var(--transition)}
@@ -108,20 +108,20 @@ footer {
 	box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
 }
 
-.nav-item {
+.main-nav .nav-item {
 	position: relative;
 }
-.nav-item:hover{
+.main-nav .nav-item:hover{
   background: linear-gradient(135deg, var(--primary-color), #fa36bfff);
 	border-radius: 6px;
 }
-.nav-item button, .nav-item .btn{
+.main-nav .nav-item button, .main-nav .nav-item .btn{
 	transition: none;
 }
-.nav-item:hover .nav-item>a, .nav-item:hover button{
+.main-nav .nav-item:hover .main-nav .nav-item>a, .main-nav .nav-item:hover button{
 	color: var(--white) !important;
 }
-.nav-item .btn:hover{
+.main-nav .nav-item .btn:hover{
 	color: var(--white);
 }
 .dropdown-menu {
@@ -186,10 +186,5 @@ footer {
 .rounded-xl{border-radius:var(--radius-xl)}
 .btn-gradient{background:var(--grad-accent); color:#fff; border:0}
 .btn-gradient:hover{opacity:.9}
-
-/* Testimonials */
-.testimonial{background:var(--brand-surface); border-radius:var(--radius-lg); box-shadow:var(--brand-shadow); padding:20px}
-.testimonial .avatar{width:44px; height:44px; border-radius:50%; background:linear-gradient(135deg,#e0e7ff,#ffe4f1)}
-
 
     
