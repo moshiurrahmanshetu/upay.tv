@@ -17,7 +17,7 @@
 
 <?php include __DIR__.'/includes/header.php'; ?>
 
-<section class="container my-4">
+<section class="container py-5">
 	<h2 class="text-center mb-4">Join with uPay.tv</h2>
 	<div class="row g-4">
 		<div class="col-md-8">
@@ -36,7 +36,7 @@
 						<label for="email" class="col-md-3 col-4 col-form-label">Email</label>
 						<div class="col-md-9 col-8">
 							<div class="input-group">
-								<span class="input-group-text"><i class="fa fa-at"></i></span>
+								<span class="input-group-text"><i class="fa fa-envelope"></i></span>
 								<input id="email" name="email" type="email" class="form-control" required>
 							</div>
 						</div>

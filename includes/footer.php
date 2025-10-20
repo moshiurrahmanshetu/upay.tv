@@ -6,40 +6,40 @@
 					<h5>About UPAY.tv</h5>
 					<p>UPAY.tv is a simple yet powerful platform to make decent money by sharing popular links. We measure ad views, clicks, signup and conversions.</p>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 footer-link">
 					<h5>Most Visited</h5>
-					<a href="/Belgium.php">Belgium</a><br>
-					<a href="/Netherlands.php">Netherlands</a><br>
-					<a href="/Romania.php">Romania</a><br>
-					<a href="/India.php">India</a><br>
-					<a href="/Poland.php">Poland</a><br>
-					<a href="/Brazil.php">Brazil</a><br>
-					<a href="/Hungary.php">Hungary</a><br>
-					<a href="/Mexico.php">Mexico</a><br>
-					<a href="/Finland.php">Finland</a><br>
-					<a href="/cities.php">Cities</a><br>
+					<a href="/Belgium.php">Belgium</a>
+					<a href="/Netherlands.php">Netherlands</a>
+					<a href="/Romania.php">Romania</a>
+					<a href="/India.php">India</a>
+					<a href="/Poland.php">Poland</a>
+					<a href="/Brazil.php">Brazil</a>
+					<a href="/Hungary.php">Hungary</a>
+					<a href="/Mexico.php">Mexico</a>
+					<a href="/Finland.php">Finland</a>
+					<a href="/cities.php">Cities</a>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 footer-link">
 					<h5>Country with States</h5>
-					<a href="/United-States.php">United States</a><br>
-					<a href="/Germany.php">Germany</a><br>
-					<a href="/Italy.php">Italy</a><br>
-					<a href="/France.php">France</a><br>
-					<a href="/Spain.php">Spain</a><br>
-					<a href="/Canada.php">Canada</a><br>
-					<a href="/Philippines.php">Philippines</a><br>
-					<a href="/United-Kingdom.php">United Kingdom</a><br>
-					<a href="/China.php">China</a><br>
+					<a href="/United-States.php">United States</a>
+					<a href="/Germany.php">Germany</a>
+					<a href="/Italy.php">Italy</a>
+					<a href="/France.php">France</a>
+					<a href="/Spain.php">Spain</a>
+					<a href="/Canada.php">Canada</a>
+					<a href="/Philippines.php">Philippines</a>
+					<a href="/United-Kingdom.php">United Kingdom</a>
+					<a href="/China.php">China</a>
 					<a href="/Switzerland.php">Switzerland</a>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 footer-link">
 					<h5>Quick Links</h5>
-					<a href="/about.php">About Us</a><br>
-					<a href="/contact.php">Contact & Support</a><br>
-					<a href="/faq.php">FAQ</a><br>
-					<a href="/terms.php">Terms & Conditions</a><br>
-					<a href="/privacy-policy.php">Privacy Policy</a><br>
-					<a href="/blogs.php">Blogs</a><br>
+					<a href="/about.php">About Us</a>
+					<a href="/contact.php">Contact & Support</a>
+					<a href="/faq.php">FAQ</a>
+					<a href="/terms.php">Terms & Conditions</a>
+					<a href="/privacy-policy.php">Privacy Policy</a>
+					<a href="/blogs.php">Blogs</a>
 				</div>
 			</div>
 		</div>

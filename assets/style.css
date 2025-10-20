@@ -48,8 +48,9 @@ body{background:var(--brand-bg); color:var(--brand-text); font-family:var(--font
 .hero .btn{border-radius:var(--radius-md)}
 .pricing .plan{background:var(--brand-surface); border-radius:var(--radius-lg); box-shadow:var(--brand-shadow); transition:var(--transition)}
 .pricing .plan:hover{transform:translateY(-2px)}
-.site-footer a{color:var(--brand-muted); text-decoration:none}
+.site-footer a{color:var(--brand-muted); text-decoration:none; }
 .site-footer a:hover{color:var(--brand-info)}
+
 /* Mobile More menu animation */
 #moreMenu{transition:max-height .3s ease, opacity .2s ease}
 .show-more #moreMenu{display:block !important}
@@ -60,7 +61,10 @@ footer {
 		padding: 1rem;
 	}
 .site-footer .copyright{color:var(--brand-muted); font-size:.875rem}
-
+.footer-link a{
+	margin: 5px 0;
+	display: block;
+}
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
 	border: none;
 	border-color: transparent;
