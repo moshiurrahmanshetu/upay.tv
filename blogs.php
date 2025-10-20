@@ -30,11 +30,11 @@
           <div class="blog-img" style="background-image: url('../assets/blog-1.jpg')"></div>
           <div class="blog-content">
             <div class="blog-category">Monetization</div>
-            <h3 class="blog-title"><a href="#">How to Maximize Ad Revenue Without Hurting UX</a></h3>
+            <h3 class="blog-title"><a href="/blog-details.php">How to Maximize Ad Revenue Without Hurting UX</a></h3>
             <p class="text-muted">Discover proven strategies to increase your earnings while maintaining a pleasant user experience...</p>
             <div class="d-flex justify-content-between align-items-center">
               <span class="blog-meta"><i class="fa-regular fa-calendar me-1"></i> Oct 16, 2025</span>
-              <a href="#" class="btn-read">Read More</a>
+              <a href="/blog-details.php" class="btn-read">Read More</a>
             </div>
           </div>
         </div>
@@ -46,11 +46,11 @@
           <div class="blog-img" style="background-image: url('../assets/blog-2.jpg');"></div>
           <div class="blog-content">
             <div class="blog-category">Technology</div>
-            <h3 class="blog-title"><a href="#">Behind the Scenes: Our Bot Detection Technology</a></h3>
+            <h3 class="blog-title"><a href="/blog-details.php">Behind the Scenes: Our Bot Detection Technology</a></h3>
             <p class="text-muted">Learn how uPay detects and filters fraudulent traffic using AI-powered algorithms...</p>
             <div class="d-flex justify-content-between align-items-center">
               <span class="blog-meta"><i class="fa-regular fa-calendar me-1"></i> Oct 10, 2025</span>
-              <a href="#" class="btn-read">Read More</a>
+              <a href="/blog-details.php" class="btn-read">Read More</a>
             </div>
           </div>
         </div>

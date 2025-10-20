@@ -37,8 +37,10 @@
 
 html,body{height:100%}
 body{background:var(--brand-bg); color:var(--brand-text); font-family:var(--font-sans)}
-.site-header .headlink a{color:var(--brand-primary); text-decoration:none; transition:var(--transition)}
-.site-header .headlink a:hover{opacity:.8}
+.site-header .headlink a{color:var(--brand-primary); text-decoration:none; transition:var(--transition); border: 1px solid;
+    padding: 4px 10px;
+    border-radius: 7px;}
+.site-header .headlink a:hover{ background: var(--grad-primary); color: var(--white);}
 .main-nav .btn{border-radius:var(--radius-sm)}
 .card{border:0; border-radius:var(--radius-lg); box-shadow:var(--brand-shadow)}
 .hero{
