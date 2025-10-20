@@ -19,8 +19,7 @@
   <?php include __DIR__ . '/includes/header.php'; ?>
 
 
-  <section class="hero text-center">
-    <!-- Floating background icons -->
+  <section class="shorting-hero text-center">
     <i class="fa fa-globe floating-icon icon-1"></i>
     <i class="fa fa-bolt floating-icon icon-2"></i>
     <i class="fa fa-qrcode floating-icon icon-3"></i>
@@ -29,7 +28,6 @@
       <h1>Earn More by Shortening Your Links</h1>
       <p>Smart link shortener & QR code generator to boost your marketing reach.</p>
 
-      <!-- Hero Card -->
       <div class="hero-card mx-auto col-lg-8 col-md-10 col-12">
         <ul class="nav nav-tabs mb-4" id="heroTabs" role="tablist">
           <li class="nav-item" role="presentation">
@@ -45,15 +43,12 @@
         </ul>
 
         <div class="tab-content" id="heroTabsContent">
-          <!-- Shorten URL Tab -->
           <div class="tab-pane fade show active" id="shorten" role="tabpanel">
             <div class="input-group">
               <input type="url" class="form-control" placeholder="Enter your long URL here...">
               <button class="btn btn-hero"><i class="fa fa-magic me-1"></i> Shorten</button>
             </div>
           </div>
-
-          <!-- QR Code Tab -->
           <div class="tab-pane fade" id="qr" role="tabpanel">
             <div class="input-group">
               <input type="url" class="form-control" placeholder="Enter link to generate QR code...">
@@ -65,8 +60,7 @@
     </div>
   </section>
 
-
-  <section class="container my-4">
+  <section class="container my-3">
     <div class="p-4 p-md-5 hero">
       <div class="row align-items-center g-4">
         <div class="col-md-7">
@@ -246,7 +240,7 @@
 
   <style>
     section {
-      padding: 80px 0;
+      padding: 40px 0;
     }
 
     h2.section-title {
@@ -295,7 +289,6 @@
       color: #555;
       font-size: 15px;
     }
-
     .cta-box {
       background: var(--card-hover);
       border-radius: 20px;
@@ -305,46 +298,36 @@
       opacity: 0;
       transform: translateY(40px);
     }
-
     .cta-box h6 {
       font-weight: 500;
       color: #444;
     }
-
     .btn-custom {
       border-radius: 30px;
       padding: 10px 25px;
       font-weight: 500;
       transition: 0.3s;
     }
-
     .btn-primary {
       background-color: var(--primary-color);
       border: none;
     }
-
     .btn-primary:hover {
       background-color: #5b2cb0;
     }
-
     .btn-outline-primary {
       border-color: var(--primary-color);
       color: var(--primary-color);
     }
-
     .btn-outline-primary:hover {
       background-color: var(--primary-color);
       color: #fff;
     }
-
-    /* ==== Scroll Animation ==== */
     .animate {
       opacity: 1 !important;
       transform: translateY(0) !important;
       transition: all 0.8s ease;
     }
-
-    /* Responsive */
     @media (max-width: 768px) {
       .feature-card {
         padding: 30px 20px;
@@ -353,7 +336,7 @@
 
 
     /* ===== Hero Section ===== */
-    .hero {
+    .shorting-hero {
       position: relative;
       background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
       color: #fff;
@@ -361,34 +344,30 @@
       overflow: hidden;
     }
 
-    .hero::after {
+    .shorting-hero::after {
       content: "";
       position: absolute;
       bottom: -80px;
       left: 0;
       width: 100%;
       height: 120px;
-      background: #fff;
+      background: #f5f7fb;
       clip-path: ellipse(70% 100% at 50% 100%);
     }
 
-    .hero h1 {
+    .shorting-hero h1 {
       font-weight: 700;
       font-size: 2.8rem;
     }
-
-    .hero p {
+    .shorting-hero p {
       font-size: 1.1rem;
       opacity: 0.9;
       margin-top: 10px;
     }
-
     .hero-content {
       position: relative;
       z-index: 2;
     }
-
-    /* ===== Hero Card ===== */
     .hero-card {
       background: #fff;
       border-radius: 20px;
@@ -397,13 +376,10 @@
       margin-top: 50px;
       animation: floatUp 1.2s ease;
     }
-
     @keyframes floatUp {
       from {opacity: 0; transform: translateY(40px);}
       to {opacity: 1; transform: translateY(0);}
     }
-
-    /* ===== Tabs ===== */
     .nav-tabs {
       border: none;
       justify-content: center;
@@ -424,20 +400,16 @@
       color: #fff;
       box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
-
-    /* ===== Form ===== */
     .input-group {
       border-radius: 50px;
       overflow: hidden;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 3px 10px rgb(29 101 255 / 39%)
     }
-
     .form-control {
       border: none;
       padding: 14px 20px;
       font-size: 1rem;
     }
-
     .btn-hero {
       background: var(--primary-color);
       color: #fff;
@@ -446,12 +418,9 @@
       padding: 0 25px;
       transition: 0.3s;
     }
-
     .btn-hero:hover {
       background: var(--accent-color);
     }
-
-    /* ===== Floating Icons ===== */
     .floating-icon {
       position: absolute;
       animation: float 6s ease-in-out infinite;
@@ -459,7 +428,6 @@
       color: #fff;
       font-size: 60px;
     }
-
     .icon-1 { top: 20%; left: 10%; animation-delay: 0s; }
     .icon-2 { top: 60%; right: 15%; animation-delay: 2s; }
     .icon-3 { bottom: 10%; left: 30%; animation-delay: 4s; }
@@ -468,7 +436,6 @@
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-20px); }
     }
-
     @media screen and (max-width: 768px) {
       .hero h1 {
         font-size: 2.2rem;

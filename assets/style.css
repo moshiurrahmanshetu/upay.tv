@@ -55,7 +55,7 @@ body{background:var(--brand-bg); color:var(--brand-text); font-family:var(--font
 .show-more #moreMenu{display:block !important}
 
 footer {
-      background: var(--text-dark);
+      background: #2f3437;
       color: var(--white);
       padding: 1rem;
       margin-top: 3rem;
@@ -144,6 +144,10 @@ footer {
 	background: var(--nav-bg);
 	color: var(--text-black);
 }
+.dropdown-menu.show {
+	display: block;
+	inset: 6px auto auto 0px !important;
+}
 .nav-center {
 	display: flex;
 	justify-content: center;
@@ -172,7 +176,7 @@ footer {
 	border: 1px solid rgba(0, 0, 0, 0.05);
 }
 /* Colored sections */
-.section{padding:56px 0}
+.section{padding:40px 0}
 .section-surface{background:var(--brand-surface)}
 .section-primary{background:var(--grad-primary); color:#fff}
 .section-accent{background:var(--grad-accent); color:#fff}

@@ -33,19 +33,19 @@
 					<a href="/Switzerland.php">Switzerland</a>
 				</div>
 				<div class="col-md-3">
-					<h5>Important Links</h5>
-					<a href="#">How to write 10x Faster</a><br>
-					<a href="#">Buy T-Shirt Hoodie Bini</a><br>
-					<a href="#">Buy Craft from South Asia</a><br>
-					<a href="#">Buy Interesting eBooks</a><br>
-					<a href="#">Buy Sell Websites</a><br>
-					<a href="#">Email Marketing</a><br>
+					<h5>Quick Links</h5>
+					<a href="/about.php">About Us</a><br>
+					<a href="/contact.php">Contact & Support</a><br>
+					<a href="/faq.php">FAQ</a><br>
+					<a href="/terms.php">Terms & Conditions</a><br>
+					<a href="/privacy-policy.php">Privacy Policy</a><br>
+					<a href="/user-join.php">Join Us</a><br>
 				</div>
 			</div>
 		</div>
 		<div class="container text-center py-3 small copyright">
 			<hr>
-			CopyRight CMS 2025 || <a href="/terms-and-conditions.php">Terms of Condition</a> | <a href="/privacy-policy.php">Privacy Policy</a> | <a href="/contact.php">Contact Us</a>
+			&copy; CopyRight UPAY 2025 || <a href="/terms.php">Terms of Condition</a> | <a href="/privacy-policy.php">Privacy Policy</a> | <a href="/contact.php">Contact Us</a>
 		</div>
 	</footer>
 
