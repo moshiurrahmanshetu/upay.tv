@@ -21,14 +21,14 @@
                   <h6 class="dropdown-header">-- Credit --</h6>
                 </li>
                 <li><a class="dropdown-item" href="/buy-credit.php"><i class="fa-solid fa-bitcoin-sign"></i> Buy Credit</a></li>
-                <li><a class="dropdown-item" href="/user-login81be.php"><i class="fa fa-clock"></i> Credit History</a></li>
+                <li><a class="dropdown-item" href="/credit-history.php"><i class="fa fa-clock"></i> Credit History</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
                 <li>
                   <h6 class="dropdown-header">-- Help --</h6>
                 </li>
-                <li><a class="dropdown-item" href="/faq-en-adv.php"><i class="fa fa-life-ring"></i> FAQ</a></li>
+                <li><a class="dropdown-item" href="/faq.php"><i class="fa fa-life-ring"></i> FAQ</a></li>
                 <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> Tips: Get Maximum</a></li>
                 <li><a class="dropdown-item" href="/contact.php"><i class="fa fa-envelope"></i> Contact Admin</a></li>
               </ul>

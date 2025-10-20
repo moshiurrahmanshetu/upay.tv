@@ -28,7 +28,7 @@
 	</div>
 </section>
 
-<section class="container my-4">
+<section class="container py-5">
 	<div class="row g-4">
 		<div class="col-md-4">
 			<div class="card p-4 h-100" style="background:linear-gradient(135deg, rgba(108,99,255,.12), rgba(0,196,179,.12));">
@@ -47,7 +47,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="row g-4 mt-1">
+	<div class="row g-4 mt-1 pb-5">
 		<div class="col-12">
 			<h5>Recent Links</h5>
 		</div>
@@ -79,11 +79,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-12 mt-2">
+		<div class="col-12 mt-5">
 			<h5>Your Ads</h5>
 		</div>
 		<div class="col-lg-4">
-				<div class="card p-3 h-100" style="background:linear-gradient(135deg, #fff, #f3f0ff);">
+			<div class="card p-3 h-100" style="background:linear-gradient(135deg, #fff, #f3f0ff);">
 				<h6 class="mb-1">Summer Sale</h6>
 				<p class="small text-muted mb-2">Get 50% off on selected items.</p>
 				<div class="d-flex justify-content-between small">
@@ -122,3 +122,18 @@
 
 </body>
 </html>
+
+<style>
+.small span{
+	border-radius: 18px;
+	padding: 3px 8px;
+	background: #ffcfc6ff;
+}
+.small span:first-child{
+	background-color: #bdfaf7ff;
+}
+.small span:last-child{
+	background-color: #deb0fcff;
+}
+
+</style>

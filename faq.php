@@ -22,7 +22,7 @@
           <h1>Frequently Asked Questions</h1>
         </div>
       <div class="row justify-content-center">
-        <div class="col-lg-8">
+        <div class="col-lg-10">
           <p class="text-center mb-5" style="font-size: 18px;">Find answers to common questions about <a style="color: var(--primary);" href="/"><b> UPAY.tv</b></a>, our products, and services.</p>
           <div class="accordion" id="faqAccordion">
             <div class="accordion-item">
@@ -244,5 +244,7 @@
 .accordion-button:not(.collapsed) {
     background-color: var(--ad-pr-lt);
 }
-
+.accordion-header {
+    background: #d2e7fd;
+}
 </style>

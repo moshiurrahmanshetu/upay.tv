@@ -55,11 +55,10 @@ body{background:var(--brand-bg); color:var(--brand-text); font-family:var(--font
 .show-more #moreMenu{display:block !important}
 
 footer {
-      background: #2f3437;
-      color: var(--white);
-      padding: 1rem;
-      margin-top: 3rem;
-    }
+		background: #2f3437;
+		color: var(--white);
+		padding: 1rem;
+	}
 .site-footer .copyright{color:var(--brand-muted); font-size:.875rem}
 
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {

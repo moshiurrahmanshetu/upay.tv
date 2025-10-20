@@ -44,6 +44,9 @@
       color: var(--text-dark);
       margin: 0 0.5rem;
     }
+    .form-check-input[type=checkbox] {
+      border: 1px solid #426af3;
+     }
     .plan-card {
       background-color: var(--white);
       border: none;

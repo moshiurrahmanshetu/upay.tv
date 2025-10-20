@@ -59,7 +59,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="py-3 bg-light" id="bot-control">
+	<section class="py-3 mb-4 bg-light" id="bot-control">
 		<div class="container">
 			<div class="text-center mb-5">
 				<h2 class="fw-bold text-gradient">How We Control Malicious Traffic</h2>
@@ -152,15 +152,15 @@
 			</div>
 		</div>
 	</section>
-	<section class="bot-success-section">
+	<section class="bot-success-section py-5">
 		<div class="container">
-			<div class="mt-5 text-center">
+			<div class="text-center">
 				<h2 class="fw-bold text-gradient mb-4">Bot Control Made Us Stronger</h2>
 				<div class="row g-4 justify-content-center">
 					<div class="col-md-4 col-lg-2">
 						<div class="card border-0 p-3 hover-lift text-center">
 							<h3 class="fw-bold text-gradient mb-2 d-flex justify-content-center align-items-center gap-2">
-								<span class="rounded-circle d-inline-flex align-items-center justify-content-center" style="width:48px;height:48px;font-size:22px;background:#2ecc71;color:#fff;">👥</span>
+								<span class="rounded-circle d-inline-flex align-items-center justify-content-center" style="width:38px;height:38px;font-size:20px;background:#2ecc71;color:#fff;">👥</span>
 								<span class="fs-4">7×</span>
 							</h3>
 							<p>Advertisers Increased</p>
@@ -170,7 +170,7 @@
 					<div class="col-md-4 col-lg-2">
 						<div class="card border-0 p-3 hover-lift text-center">
 							<h3 class="fw-bold text-gradient mb-2 d-flex justify-content-center align-items-center gap-2">
-								<span class="rounded-circle d-inline-flex align-items-center justify-content-center" style="width:48px;height:48px;font-size:22px;background:#3498db;color:#fff;">🖥️</span>
+								<span class="rounded-circle d-inline-flex align-items-center justify-content-center" style="width:38px;height:38px;font-size:20px;background:#3498db;color:#fff;">🖥️</span>
 								<span class="fs-4">70%</span>
 							</h3>
 							<p>Server Costs Reduced</p>
@@ -180,7 +180,7 @@
 					<div class="col-md-4 col-lg-2">
 						<div class="card border-0 p-3 hover-lift text-center">
 							<h3 class="fw-bold text-gradient mb-2 d-flex justify-content-center align-items-center gap-2">
-								<span class="rounded-circle d-inline-flex align-items-center justify-content-center" style="width:48px;height:48px;font-size:22px;background:#f39c12;color:#fff;">📈</span>
+								<span class="rounded-circle d-inline-flex align-items-center justify-content-center" style="width:38px;height:38px;font-size:20px;background:#f39c12;color:#fff;">📈</span>
 								<span class="fs-4">↑</span>
 							</h3>
 							<p>Revenue & Income Boosted</p>
@@ -190,7 +190,7 @@
 					<div class="col-md-4 col-lg-2">
 						<div class="card border-0 p-3 hover-lift text-center">
 							<h3 class="fw-bold text-gradient mb-2 d-flex justify-content-center align-items-center gap-2">
-								<span class="rounded-circle d-inline-flex align-items-center justify-content-center" style="width:48px;height:48px;font-size:22px;background:#9b59b6;color:#fff;">💼</span>
+								<span class="rounded-circle d-inline-flex align-items-center justify-content-center" style="width:38px;height:38px;font-size:20px;background:#9b59b6;color:#fff;">💼</span>
 								<span class="fs-4">Quality</span>
 							</h3>
 							<p>Focus on <br> Quality</p>
@@ -200,7 +200,7 @@
 					<div class="col-md-4 col-lg-2">
 						<div class="card border-0 p-3 hover-lift text-center">
 							<h3 class="fw-bold text-gradient mb-2 d-flex justify-content-center align-items-center gap-2">
-								<span class="rounded-circle d-inline-flex align-items-center justify-content-center" style="width:48px;height:48px;font-size:22px;background:#16a085;color:#fff;">🌍</span>
+								<span class="rounded-circle d-inline-flex align-items-center justify-content-center" style="width:38px;height:38px;font-size:20px;background:#16a085;color:#fff;">🌍</span>
 								<span class="fs-4">Growth</span>
 							</h3>
 							<p>Referral Traffic Grew</p>
@@ -234,30 +234,42 @@
 
 
 </body>
-
 </html>
 
 
 <style>
-	
+	:root{
+			--grad-hover:linear-gradient(135deg,  var(--brand-secondary) 0%,var(--brand-primary) 100%);
+	}
 .gradient-bg {
 		background: linear-gradient(90deg, #00b4db, #0083b0);
 	}
 	.hover-lift {
 		border: 1px solid #bbb4b4 !important;
-		transition: all 0.3s ease;
+		transition: all 0.3s ease-in-out !important;
+		background:var(--grad-primary);
+	}
+	.hover-lift:hover{
+		transition: all 0.3s ease-in-out;
+		background:var(--grad-hover);
+	}
+	.hover-lift h5,
+	.hover-lift .text-muted{
+		color: #fff !important;
 	}
 .bot-success-section .hover-lift{
-	background: var(--grad-primary);
-	color: #fff;
+	background: #fff;
+	color: #1d1d1dff;
 }
 .bot-success-section .hover-lift h3,
 .bot-success-section .hover-lift p {
-	color: #fff;
+	color: #1d1d1dff;
 }
-	.hover-lift:hover {
-		transform: translateY(-5px);
-		box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-	}
-
+.hover-lift:hover {
+	transform: translateY(-5px);
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.bot-success-section{
+	background: #ecebebff;
+}
 </style>

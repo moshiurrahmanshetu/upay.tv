@@ -1,6 +1,6 @@
 
-	<footer class="site-footer mt-5 border-top">
-		<div class="container py-5">
+	<footer class="site-footer border-top py-5">
+		<div class="container">
 			<div class="row g-4">
 				<div class="col-md-3">
 					<h5>About UPAY.tv</h5>
@@ -39,7 +39,7 @@
 					<a href="/faq.php">FAQ</a><br>
 					<a href="/terms.php">Terms & Conditions</a><br>
 					<a href="/privacy-policy.php">Privacy Policy</a><br>
-					<a href="/user-join.php">Join Us</a><br>
+					<a href="/blogs.php">Blogs</a><br>
 				</div>
 			</div>
 		</div>
