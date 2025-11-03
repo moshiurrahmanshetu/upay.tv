@@ -89,16 +89,73 @@
           <li><a class="btn btn-light w-100" href="/pricing.php"><i class="fa fa-dollar-sign"></i> Price</a></li>
           <li><a class="btn btn-light w-100" href="/bot-control.php"><i class="fa fa-bug"></i> Bot Control</a></li>
           <li><a class="btn btn-light w-100" href="/refer.php"><i class="fa fa-handshake"></i> Refer</a></li>
-          <li class="d-flex gap-2"> <a class="btn btn-primary flex-fill" href="/user-login.php">Login</a> <a class="btn btn-success flex-fill" href="/user-join.php">Join</a> </li>
+          <li class="d-flex gap-2">
+            <a class="btn btn-futuristic flex-fill" href="/user-login.php">Login</a> 
+            <a class="btn btn-futuristic alt flex-fill" href="/user-join.php">Join</a>
+          </li>
         </ul>
       </div>
     </nav>
   </header>
 
+
   <style>
 #moreMenu {
   transition: max-height 0.3s ease, opacity 0.3s ease;
   overflow: hidden;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#moreToggle{
+  padding: 3px 8px;
+  background: #292929ff;
+  color: #fff;
+}
+#moreWrapper{
+  border: none;
+  padding: 3px;
+  background: transparent;
+}
+
+
+.btn-futuristic {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 0;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 14px;
+  color: #fff;
+  background: var(--grad-primary);
+  border: none;
+  box-shadow: 0 4px 15px rgba(116, 235, 213, 0.4);
+  transition: all 0.35s ease;
+  backdrop-filter: blur(8px);
+}
+
+.btn-futuristic.alt {
+  background: linear-gradient(135deg, #FAD961, #F76B1C);
+  box-shadow: 0 4px 15px rgba(247, 107, 28, 0.4);
+}
+
+.btn-futuristic:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-futuristic:active {
+  transform: scale(0.96);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive tweak */
+@media (max-width: 480px) {
+  .btn-futuristic {
+    padding: 10px 0;
+    font-size: 14px;
+    border-radius: 12px;
+  }
 }
 
   </style>
