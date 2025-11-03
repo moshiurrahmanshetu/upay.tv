@@ -151,10 +151,12 @@ footer {
 	background: var(--nav-bg);
 	color: var(--text-black);
 }
+
 .dropdown-menu.show {
 	display: block;
 	inset: 6px auto auto 0px !important;
 }
+
 .nav-center {
 	display: flex;
 	justify-content: center;

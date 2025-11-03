@@ -41,7 +41,7 @@
             </div>
           </li>
           <li class="dropdown-button nav-item">
-            <div class="btn-group"> <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-money-bill"></i> Earn</button>
+            <div class="btn-group"> <button type="button" id="earnDropdown" class="btn dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-money-bill"></i> Earn</button>
               <ul class="dropdown-menu">
                 <li>
                   <h6 class="dropdown-header">-- Earn --</h6>
@@ -157,5 +157,15 @@
     border-radius: 12px;
   }
 }
+
+/* Only for Earn dropdown */
+#earnDropdown + .dropdown-menu.show {
+    inset: unset !important;
+    top: 100% !important;
+    right: 0 !important;
+    left: auto !important;
+    transform: none !important;
+}
+
 
   </style>
