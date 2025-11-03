@@ -99,7 +99,7 @@
     </div>
   </section>
 
-  <section class="section">
+  <section class="featured-section pt-2">
     <div class="container">
       <div class="row g-4">
         <div class="col-md-4">
@@ -127,46 +127,42 @@
     </div>
   </section>
 
-  <section class="section section-primary">
-    <div class="container">
-      <div class="row g-3 text-center">
-        <div class="col-6 col-md-3">
-          <div class="stat-tile">
-            <div class="h3 mb-0">+120M</div>
-            <div class="small opacity-75">Clicks tracked</div>
-          </div>
+  <section class="section section-primary py-5">
+  <div class="container">
+    <div class="row g-3 text-center">
+      
+      <div class="col-6 col-md-3">
+        <div class="stat-tile">
+          <div class="h3 mb-0 stat-number" data-target="120000000" data-format="abbr" data-plus="true">0</div>
+          <div class="small opacity-75">Clicks tracked</div>
         </div>
-        <div class="col-6 col-md-3">
-          <div class="stat-tile">
-            <div class="h3 mb-0">98.9%</div>
-            <div class="small opacity-75">Uptime</div>
-          </div>
+      </div>
+      
+      <div class="col-6 col-md-3">
+        <div class="stat-tile">
+          <div class="h3 mb-0 stat-number" data-target="98.9" data-format="percent">0</div>
+          <div class="small opacity-75">Uptime</div>
         </div>
-        <div class="col-6 col-md-3">
-          <div class="stat-tile">
-            <div class="h3 mb-0">200+</div>
-            <div class="small opacity-75">Countries</div>
-          </div>
+      </div>
+      
+      <div class="col-6 col-md-3">
+        <div class="stat-tile">
+          <div class="h3 mb-0 stat-number" data-target="200" data-format="plain" data-plus="true">0</div>
+          <div class="small opacity-75">Countries</div>
         </div>
-        <div class="col-6 col-md-3">
-          <div class="stat-tile">
-            <div class="h3 mb-0">1.5k+</div>
-            <div class="small opacity-75">Advertisers</div>
-          </div>
+      </div>
+      
+      <div class="col-6 col-md-3">
+        <div class="stat-tile">
+          <div class="h3 mb-0 stat-number" data-target="1500" data-format="plain" data-plus="true">0</div>
+          <div class="small opacity-75">Advertisers</div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="section section-accent">
-    <div class="container text-center">
-      <h3 class="mb-2">Ready to grow your earnings?</h3>
-      <p class="opacity-75 mb-3">Join thousands of publishers and advertisers using uPAY.tv today.</p>
-      <a href="/user-join.php" class="btn btn-light text-dark">Create Free Account</a>
-    </div>
-  </section>
-
-  <section id="earn-money">
+ <section id="earn-money">
     <div class="container">
       <h2 class="section-title">Earn Money by Shortening your links</h2>
       <div class="row g-4 text-center">
@@ -237,6 +233,13 @@
       </div>
     </div>
   </section>
+  <section class="section section-accent">
+    <div class="container text-center">
+      <h3 class="mb-2">Ready to grow your earnings?</h3>
+      <p class="opacity-75 mb-3">Join thousands of publishers and advertisers using uPAY.tv today.</p>
+      <a href="/user-join.php" class="btn btn-light text-dark">Create Free Account</a>
+    </div>
+  </section>
 
   <style>
     section {
@@ -260,6 +263,7 @@
       opacity: 0;
       transform: translateY(40px);
       min-height: 240px;
+      border: 1px solid #c9c9c9;
     }
 
     .feature-card:hover {
@@ -267,7 +271,6 @@
       background: var(--card-hover);
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     }
-
     .feature-card i {
       font-size: 40px;
       color: #0e7dc1;
@@ -334,7 +337,6 @@
       }
     }
 
-
     /* ===== Hero Section ===== */
     .shorting-hero {
       position: relative;
@@ -342,6 +344,7 @@
       color: #fff;
       padding: 100px 0 120px;
       overflow: hidden;
+      margin-top: 108px;
     }
 
     .shorting-hero::after {
@@ -454,9 +457,8 @@
 
   <?php include __DIR__ . '/includes/footer.php'; ?>
 
-
   <script>
-    // ===== Smooth Scroll Animation =====
+
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) entry.target.classList.add('animate');
@@ -465,6 +467,67 @@
 
     document.querySelectorAll('.feature-card, .cta-box').forEach(el => observer.observe(el));
   </script>
+  <script>
+(function() {
+  const DURATION = 4000;
+
+
+  function formatAbbr(n) {
+    if (n >= 1_000_000) return (n / 1_000_000).toFixed(0) + 'M';
+    if (n >= 1_000) return (n / 1_000).toFixed(1).replace('.0','') + 'k';
+    return n;
+  }
+
+  function animateValue(el, target, duration, format, plus) {
+    let start = null;
+    const isDecimal = target % 1 !== 0;
+
+    function step(timestamp) {
+      if (!start) start = timestamp;
+      const progress = Math.min((timestamp - start) / duration, 1);
+      const current = progress * target;
+      
+      let displayValue;
+      if (format === 'abbr') {
+        displayValue = formatAbbr(current);
+      } else if (format === 'percent') {
+        displayValue = (current).toFixed(1) + '%';
+      } else {
+        displayValue = isDecimal ? current.toFixed(1) : Math.floor(current);
+      }
+
+      el.textContent = (plus ? displayValue + '+' : displayValue);
+      if (progress < 1) requestAnimationFrame(step);
+      else {
+        // Ensure final value
+        if (format === 'abbr') el.textContent = formatAbbr(target) + (plus ? '+' : '');
+        else if (format === 'percent') el.textContent = target + '%';
+        else el.textContent = (isDecimal ? target.toFixed(1) : target) + (plus ? '+' : '');
+      }
+    }
+    requestAnimationFrame(step);
+  }
+
+  
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      obs.unobserve(entry.target);
+      const el = entry.target;
+      const target = parseFloat(el.dataset.target);
+      const format = el.dataset.format || 'plain';
+      const plus = el.dataset.plus === 'true';
+      animateValue(el, target, DURATION, format, plus);
+    });
+  }, { threshold: 0.5 });
+
+
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.stat-number').forEach(el => observer.observe(el));
+  });
+})();
+</script>
+
 </body>
 
 </html>
