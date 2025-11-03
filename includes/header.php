@@ -90,8 +90,8 @@
           <li><a class="btn btn-light w-100" href="/bot-control.php"><i class="fa fa-bug"></i> Bot Control</a></li>
           <li><a class="btn btn-light w-100" href="/refer.php"><i class="fa fa-handshake"></i> Refer</a></li>
           <li class="d-flex gap-2 login-join-btn">
-            <a class="btn btn-futuristic flex-fill" href="/user-login.php">Login</a> 
-            <a class="btn btn-futuristic alt flex-fill" href="/user-join.php">Join</a>
+            <a class="btn btn-futuristic flex-fill" href="/user-login.php"><i class="fa fa-lock"></i> &nbsp; Login</a> 
+            <a class="btn btn-futuristic alt flex-fill" href="/user-join.php"><i class="fa fa-address-card"></i> &nbsp; Join</a>
           </li>
         </ul>
       </div>
