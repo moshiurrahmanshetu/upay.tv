@@ -241,6 +241,9 @@
 	:root{
 			--grad-hover:linear-gradient(135deg,  var(--brand-secondary) 0%,var(--brand-primary) 100%);
 	}
+	.site-header{
+		background:var(--grad-primary);
+	}
 .gradient-bg {
 		background: linear-gradient(90deg, #00b4db, #0083b0);
 	}

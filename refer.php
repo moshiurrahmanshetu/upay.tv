@@ -131,6 +131,9 @@
       background: var(--bg-light);
       color: var(--text-dark);
     }
+    .site-header{
+		background:var(--grad-primary);
+	}
 
     /* ===== Header Section ===== */
     .refer-header {

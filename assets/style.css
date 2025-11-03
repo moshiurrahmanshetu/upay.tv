@@ -34,6 +34,12 @@
 	--grad-primary:linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-secondary) 100%);
 	--grad-accent:linear-gradient(135deg, var(--brand-accent) 0%, var(--brand-primary) 100%);
 }
+:root {
+      --primary-color: #1857e0ff;
+      --accent-color: #9b6cff;
+      --bg-light: #f8f5ff;
+      --text-dark: #2b2b2b;
+    }
 
 html,body{height:100%}
 body{background:var(--brand-bg); color:var(--brand-text); font-family:var(--font-sans)}
@@ -74,14 +80,14 @@ footer{ background: #2f3437; color: var(--white); padding: 1rem;}
 .dropdown-button:hover .dropdown-menu {
 	display: block;
 	top: 100%;
-	margin-top: 7px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .site-header {
-	position: fixed;
+	position: sticky;
 	top: 0;
 	z-index: 1100;
 	width: 100%;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
 }
 .top-bar {
 	background: linear-gradient(90deg, var(--primary-1), var(--primary-2));

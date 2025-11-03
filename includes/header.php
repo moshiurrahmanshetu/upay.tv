@@ -1,5 +1,5 @@
 
-  <header class="site-header border-bottom bg-white">
+  <header class="site-header">
     <div class="container py-2 d-flex align-items-center justify-content-between"> <a href="/" class="d-inline-flex align-items-center gap-2 text-decoration-none"> <img src="../assets/logo.png" alt="uPay Ad network" height="40"> </a>
       <div class="headlink d-none d-md-flex gap-3">
         <a href="/user-login.php"><i class="fa fa-lock"></i> Login</a> 
@@ -18,7 +18,7 @@
                 <li>
                   <h6 class="dropdown-header">-- Campaign --</h6>
                 </li>
-                <li><a class="dropdown-item" href="/user-login81be.php"><i class="fa fa-plus"></i> Create New Campaign</a></li>
+                <li><a class="dropdown-item" href="/campaign.php"><i class="fa fa-plus"></i> Create New Campaign</a></li>
                 <li><a class="dropdown-item" href="/user-login81be.php"><i class="fa fa-list"></i> My Ads</a></li>
                 <li>
                   <hr class="dropdown-divider">

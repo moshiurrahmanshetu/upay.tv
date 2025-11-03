@@ -16,187 +16,6 @@
 
 <?php include __DIR__.'/includes/header.php'; ?>
 
-<style>
-
-    body {
-      font-family: 'Poppins', sans-serif;
-      background-color: var(--light-bg);
-      color: var(--text-dark);
-    }
-
-    .navbar-brand img {
-      height: 40px;
-    }
-
-    .pricing-header {
-      text-align: center;
-      padding: 4rem 1rem 2rem;
-    }
-    .pricing-header h1 {
-      font-weight: 700;
-    }
-    .toggle-switch {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    .toggle-switch label {
-      font-weight: 500;
-      color: var(--text-dark);
-      margin: 0 0.5rem;
-    }
-    .form-check-input[type=checkbox] {
-      border: 1px solid #426af3;
-     }
-    .plan-card {
-      background-color: var(--white);
-      border: none;
-      border-radius: var(--border-radius);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-      transition: all 0.3s ease;
-    }
-    .plan-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
-    }
-    .plan-header {
-      background: linear-gradient(135deg, var(--primary-color), #fa36bfff);
-      color: var(--white);
-      padding: 2rem;
-      border-top-left-radius: var(--border-radius);
-      border-top-right-radius: var(--border-radius);
-      text-align: center;
-    }
-    .plan-header h3 {
-      font-weight: 600;
-    }
-    .plan-price {
-      font-size: 2.2rem;
-      font-weight: 700;
-      margin: 1rem 0;
-    }
-    .plan-body {
-      padding: 2rem;
-      text-align: center;
-    }
-    .plan-body ul {
-      list-style: none;
-      padding: 0;
-      margin: 1rem 0;
-    }
-    .plan-body ul li {
-      padding: 0.5rem 0;
-      color: var(--text-light);
-    }
-    .plan-body ul li i {
-      color: var(--primary-color);
-      margin-right: 0.5rem;
-    }
-    .plan-body .btn {
-      margin-top: 1rem;
-      padding: 0.75rem 2rem;
-      font-weight: 500;
-      border-radius: 50px;
-    }
-    .table-section {
-      background-color: var(--white);
-      border-radius: var(--border-radius);
-      padding: 2rem;
-      margin: 3rem auto;
-      max-width: 900px;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
-    }
-    .table-section table {
-      width: 100%;
-    }
-    .table-section th {
-      text-align: center;
-      background: var(--primary-color);
-      color: var(--white);
-      padding: 1rem;
-    }
-    .table-section td {
-      text-align: center;
-      padding: 0.8rem;
-      color: var(--text-dark);
-    }
-
-
-/* version 2 css  */
-
-    .feature-table th {
-      background: #e9f5ff;
-      font-weight: 600;
-      color: #0d6efd;
-    }
-    .feature-table td, .feature-table th {
-      text-align: center;
-      vertical-align: middle;
-      padding: 12px;
-    }
-    .feature-table .category-row {
-      background: #dff0ff;
-      font-weight: 600;
-      text-align: left;
-    }
-    .fa-check {
-      color: #28a745;
-    }
-    .fa-times {
-      color: #dc3545;
-    }
-    .pricing-header {
-      text-align: center;
-      padding: 80px 20px 50px;
-    }
-    .pricing-header h1 {
-      font-weight: 700;
-      color: #0d6efd;
-    }
-    .pricing-header p {
-      color: #6c757d;
-      font-size: 18px;
-    }
-    .toggle-buttons {
-      display: flex;
-      justify-content: center;
-      margin: 30px 0;
-    }
-    .toggle-buttons button {
-      border: none;
-      background: #e9f2ff;
-      color: #0d6efd;
-      padding: 8px 25px;
-      border-radius: 50px;
-      margin: 0 5px;
-      transition: all 0.3s ease;
-    }
-    .toggle-buttons button.active {
-      background: #0d6efd;
-      color: #fff;
-    }
-    .pricing-card {
-      border: none;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease;
-    }
-    .pricing-card:hover {
-      transform: translateY(-6px);
-    }
-    .pricing-card .card-header {
-      background: linear-gradient(135deg, var(--primary-color), #fa36bfff);
-      color: #fff;
-      text-align: center;
-      font-weight: 600;
-      border-top-left-radius: 12px;
-      border-top-right-radius: 12px;
-    }
-    .price {
-      font-size: 36px;
-      font-weight: 700;
-      color: #0d6efd;
-    }
-  </style>
 </head>
 <body>
 
@@ -463,3 +282,185 @@
 </script>
 </body>
 </html>
+
+
+<style>
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+  }
+
+  .navbar-brand img {
+    height: 40px;
+  }
+
+  .pricing-header {
+    text-align: center;
+    padding: 4rem 1rem 2rem;
+  }
+  .pricing-header h1 {
+    font-weight: 700;
+  }
+  .toggle-switch {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .toggle-switch label {
+    font-weight: 500;
+    color: var(--text-dark);
+    margin: 0 0.5rem;
+  }
+  .form-check-input[type=checkbox] {
+    border: 1px solid #426af3;
+    }
+  .plan-card {
+    background-color: var(--white);
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+  }
+  .plan-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  }
+  .plan-header {
+    background: linear-gradient(135deg, var(--primary-color), #fa36bfff);
+    color: var(--white);
+    padding: 2rem;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    text-align: center;
+  }
+  .plan-header h3 {
+    font-weight: 600;
+  }
+  .plan-price {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+  }
+  .plan-body {
+    padding: 2rem;
+    text-align: center;
+  }
+  .plan-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  .plan-body ul li {
+    padding: 0.5rem 0;
+    color: var(--text-light);
+  }
+  .plan-body ul li i {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+  }
+  .plan-body .btn {
+    margin-top: 1rem;
+    padding: 0.75rem 2rem;
+    font-weight: 500;
+    border-radius: 50px;
+  }
+  .table-section {
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    margin: 3rem auto;
+    max-width: 900px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  }
+  .table-section table {
+    width: 100%;
+  }
+  .table-section th {
+    text-align: center;
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+  }
+  .table-section td {
+    text-align: center;
+    padding: 0.8rem;
+    color: var(--text-dark);
+  }
+
+/* version 2 css  */
+
+.feature-table th {
+  background: #e9f5ff;
+  font-weight: 600;
+  color: #0d6efd;
+}
+.feature-table td, .feature-table th {
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px;
+}
+.feature-table .category-row {
+  background: #dff0ff;
+  font-weight: 600;
+  text-align: left;
+}
+.fa-check {
+  color: #28a745;
+}
+.fa-times {
+  color: #dc3545;
+}
+.pricing-header {
+  text-align: center;
+  padding: 80px 20px 50px;
+}
+.pricing-header h1 {
+  font-weight: 700;
+  color: #0d6efd;
+}
+.pricing-header p {
+  color: #6c757d;
+  font-size: 18px;
+}
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.toggle-buttons button {
+  border: none;
+  background: #e9f2ff;
+  color: #0d6efd;
+  padding: 8px 25px;
+  border-radius: 50px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+.toggle-buttons button.active {
+  background: #0d6efd;
+  color: #fff;
+}
+.pricing-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.pricing-card:hover {
+  transform: translateY(-6px);
+}
+.pricing-card .card-header {
+  background: linear-gradient(135deg, var(--primary-color), #fa36bfff);
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.price {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0d6efd;
+}
+</style>

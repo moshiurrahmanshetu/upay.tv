@@ -124,6 +124,9 @@
 </html>
 
 <style>
+	.site-header{
+		background:var(--grad-primary);
+	}
 .small span{
 	border-radius: 18px;
 	padding: 3px 8px;

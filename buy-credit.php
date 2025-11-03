@@ -28,7 +28,7 @@
   <div class="container">
     <div class="row g-4 py-4 mb-5">
       <div class="col-md-4">
-        <div class="card border-0 shadow-sm h-100 text-center p-4 hover-lift" style="transition: all .3s;">
+        <div class="card shadow-sm h-100 text-center p-4 hover-lift" style="transition: all .3s;">
           <div class="card-body">
             <div class="icon-box mx-auto bg-gradient text-white rounded-circle d-flex align-items-center justify-content-center mb-3" style="width:70px; height:70px; font-size:26px;">
               💎
@@ -47,7 +47,7 @@
 
       <!-- Standard -->
       <div class="col-md-4">
-        <div class="card border-0 shadow h-100 text-center p-4 hover-lift" style="transform: scale(1.05); border: 2px solid var(--brand-primary);">
+        <div class="card shadow h-100 text-center p-4 hover-lift" style="transform: scale(1.05); border: 2px solid var(--brand-primary);">
           <div class="card-body">
             <div class="icon-box mx-auto bg-gradient text-white rounded-circle d-flex align-items-center justify-content-center mb-3" style="width:70px; height:70px; font-size:26px;">
               🚀
@@ -65,7 +65,7 @@
       </div>
 
       <div class="col-md-4">
-        <div class="card border-0 shadow-sm h-100 text-center p-4 hover-lift">
+        <div class="card shadow-sm h-100 text-center p-4 hover-lift">
           <div class="card-body">
             <div class="icon-box mx-auto bg-gradient text-white rounded-circle d-flex align-items-center justify-content-center mb-3" style="width:70px; height:70px; font-size:26px;">
               👑
@@ -104,6 +104,9 @@
 <style>
 	:root{
 			--grad-hover:linear-gradient(135deg,  var(--brand-secondary) 0%,var(--brand-primary) 100%);
+	}
+  .site-header{
+		background:var(--grad-primary);
 	}
   .text-gradient {
     background: linear-gradient(135deg, var(--brand-primary), var(--brand-secondary));

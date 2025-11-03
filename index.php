@@ -237,15 +237,18 @@
     <div class="container text-center">
       <h3 class="mb-2">Ready to grow your earnings?</h3>
       <p class="opacity-75 mb-3">Join thousands of publishers and advertisers using uPAY.tv today.</p>
-      <a href="/user-join.php" class="btn btn-light text-dark">Create Free Account</a>
+      <a href="/user-join.php" class="btn btn-light create-account-btn">Create Free Account</a>
     </div>
   </section>
 
   <style>
+  
+  .site-header {
+	  position: fixed;
+  }
     section {
       padding: 40px 0;
     }
-
     h2.section-title {
       text-align: center;
       font-weight: 600;
@@ -304,6 +307,11 @@
     .cta-box h6 {
       font-weight: 500;
       color: #444;
+    }
+    .create-account-btn:hover{
+      background: #2b2b2b;
+      color: var(--white);
+      border: 1px solid var(--text-dark);
     }
     .btn-custom {
       border-radius: 30px;
@@ -447,12 +455,7 @@
         padding: 20px;
       }
     }
-    :root {
-      --primary-color: #1857e0ff;
-      --accent-color: #9b6cff;
-      --bg-light: #f8f5ff;
-      --text-dark: #2b2b2b;
-    }
+    
   </style>
 
   <?php include __DIR__ . '/includes/footer.php'; ?>
