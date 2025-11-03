@@ -124,7 +124,7 @@
   padding: 12px 0;
   font-weight: 600;
   font-size: 15px;
-  text-align: center;
+  text-align: center !important;
   border-radius: 14px;
   color: #fff;
   background: var(--grad-primary);
@@ -158,13 +158,18 @@
   }
 }
 
-/* Only for Earn dropdown */
+@media (max-width: 767px) {
 #earnDropdown + .dropdown-menu.show {
     inset: unset !important;
     top: 100% !important;
     right: 0 !important;
     left: auto !important;
     transform: none !important;
+    margin-top: 7px !important;
+}
+#moreMenu li a{
+  text-align: left;
+}
 }
 
 
