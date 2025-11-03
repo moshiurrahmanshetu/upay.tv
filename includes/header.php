@@ -1,7 +1,13 @@
-<header class="site-header">
+
   <header class="site-header border-bottom bg-white">
     <div class="container py-2 d-flex align-items-center justify-content-between"> <a href="/" class="d-inline-flex align-items-center gap-2 text-decoration-none"> <img src="../assets/logo.png" alt="uPay Ad network" height="40"> </a>
-      <div class="headlink d-none d-md-flex gap-3"> <a href="/user-login.php"><i class="fa fa-lock"></i> Login</a> <a href="/user-join.php"><i class="fa fa-address-card"></i> Join Now</a> </div> <button class="btn btn-light d-md-none" id="mobileMenuToggle" aria-label="Toggle menu"> <i class="fa fa-bars"></i> </button>
+      <div class="headlink d-none d-md-flex gap-3">
+        <a href="/user-login.php"><i class="fa fa-lock"></i> Login</a> 
+        <a href="/user-join.php"><i class="fa fa-address-card"></i> Join Now</a> 
+      </div>
+      <button class="btn btn-light d-md-none" id="moreWrapper" aria-label="Toggle menu">
+        <span id="moreToggle" class="btn btn-outline-secondary">More</span> 
+    </button>
     </div>
     <nav class="main-nav">
       <div class="container">
@@ -75,9 +81,9 @@
             <a class="btn" href="/refer.php">
               <i class="fa fa-handshake"></i> Refer</a>
           </li>
-          <li class="ms-auto d-md-none" id="moreWrapper">
+          <!-- <li class="ms-auto d-md-none" id="moreWrapper">
             <button class="btn btn-outline-secondary" id="moreToggle">More</button>
-          </li>
+          </li> -->
         </ul>
         <ul class="nav list-unstyled flex-column gap-2" id="moreMenu">
           <li><a class="btn btn-light w-100" href="/pricing.php"><i class="fa fa-dollar-sign"></i> Price</a></li>
@@ -88,3 +94,11 @@
       </div>
     </nav>
   </header>
+
+  <style>
+#moreMenu {
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  overflow: hidden;
+}
+
+  </style>
