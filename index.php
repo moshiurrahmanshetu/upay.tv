@@ -451,8 +451,19 @@
       .hero h1 {
         font-size: 2.2rem;
       }
+      .hero {
+        padding: 10px !important;
+      }
       .hero-card {
         padding: 20px;
+      }
+      .btn-hero {
+        padding: 0 10px;
+      }
+    }
+    @media screen and (max-width: 600px) {
+    .shorting-hero h1 {
+      font-size: 2rem;
       }
     }
     

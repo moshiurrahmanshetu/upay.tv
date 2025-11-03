@@ -192,6 +192,15 @@ footer{ background: #2f3437; color: var(--white); padding: 1rem;}
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
+@media screen and (max-width: 767px) {
+	#moreMenu {
+	max-height: 200px !important;
+}
+.login-join-btn{
+	margin-top: 20px;
+}
+}
+
 #moreToggle{
   padding: 3px 8px;
   background: #292929ff;
@@ -214,7 +223,7 @@ footer{ background: #2f3437; color: var(--white); padding: 1rem;}
   font-size: 15px;
   text-align: center !important;
   border-radius: 14px;
-  color: #fff;
+  color: #fff !important;
   background: var(--grad-primary);
   border: none;
   box-shadow: 0 4px 15px rgba(116, 235, 213, 0.4);
@@ -223,8 +232,8 @@ footer{ background: #2f3437; color: var(--white); padding: 1rem;}
 }
 
 .btn-futuristic.alt {
-  background: linear-gradient(135deg, #FAD961, #F76B1C);
-  box-shadow: 0 4px 15px rgba(247, 107, 28, 0.4);
+  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  box-shadow: 0 4px 15px rgba(15, 7, 2, 0.4);
 }
 
 .btn-futuristic:hover {
@@ -255,11 +264,17 @@ footer{ background: #2f3437; color: var(--white); padding: 1rem;}
     transform: none !important;
     margin-top: 7px !important;
 }
+.dropdown-button:hover .earn-drop-menu {
+	right: 0 !important;
+}
 #moreMenu li a{
   text-align: left;
+  border-bottom: 1px solid #adadad;
 }
 }
-
+.form-control-lg {
+    font-size: 16px;
+}
 /* Colored sections */
 .section{padding:40px 0}
 .section-surface{background:var(--brand-surface)}
@@ -279,5 +294,8 @@ footer{ background: #2f3437; color: var(--white); padding: 1rem;}
 @media screen and (max-width: 767px){
 	.main-nav{
 	padding-bottom: 12px;
+}
+.page-header {
+    padding: 45px 15px 45px !important;
 }
 }

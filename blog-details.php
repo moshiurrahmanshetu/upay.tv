@@ -232,4 +232,9 @@
       opacity: 1;
       transform: translateY(0);
     }
+    @media screen and (max-width: 600px) {
+    .blog-hero h1 {
+      font-size: 1.8rem;
+      }
+    }
   </style>

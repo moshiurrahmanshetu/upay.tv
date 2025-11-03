@@ -19,7 +19,7 @@
                   <h6 class="dropdown-header">-- Campaign --</h6>
                 </li>
                 <li><a class="dropdown-item" href="/campaign.php"><i class="fa fa-plus"></i> Create New Campaign</a></li>
-                <li><a class="dropdown-item" href="/user-login81be.php"><i class="fa fa-list"></i> My Ads</a></li>
+                <li><a class="dropdown-item" href="/my-ads.php"><i class="fa fa-list"></i> My Ads</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -42,13 +42,13 @@
           </li>
           <li class="dropdown-button nav-item">
             <div class="btn-group"> <button type="button" id="earnDropdown" class="btn dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-money-bill"></i> Earn</button>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu earn-drop-menu">
                 <li>
                   <h6 class="dropdown-header">-- Earn --</h6>
                 </li>
                 <li><a class="dropdown-item" href="/dashboard.php"><i class="fa fa-plus"></i> Shorten New Link</a></li>
                 <li><a class="dropdown-item" href="/dashboard.php"><i class="fa fa-link"></i> My Links</a></li>
-                <li><a class="dropdown-item" href="/dashboard.php"><i class="fa fa-handshake"></i> Refer Friend</a></li>
+                <li><a class="dropdown-item" href="/refer.php"><i class="fa fa-handshake"></i> Refer Friend</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -89,7 +89,7 @@
           <li><a class="btn btn-light w-100" href="/pricing.php"><i class="fa fa-dollar-sign"></i> Price</a></li>
           <li><a class="btn btn-light w-100" href="/bot-control.php"><i class="fa fa-bug"></i> Bot Control</a></li>
           <li><a class="btn btn-light w-100" href="/refer.php"><i class="fa fa-handshake"></i> Refer</a></li>
-          <li class="d-flex gap-2">
+          <li class="d-flex gap-2 login-join-btn">
             <a class="btn btn-futuristic flex-fill" href="/user-login.php">Login</a> 
             <a class="btn btn-futuristic alt flex-fill" href="/user-join.php">Join</a>
           </li>

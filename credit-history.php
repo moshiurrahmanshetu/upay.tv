@@ -155,6 +155,7 @@
       text-align: center;
       box-shadow: 0 5px 20px rgba(0,0,0,0.05);
       transition: all 0.3s;
+      border: 1px solid #b9b9b9;
     }
 
     .summary-box:hover {

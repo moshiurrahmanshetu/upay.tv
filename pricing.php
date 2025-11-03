@@ -32,10 +32,8 @@
     <label>Yearly <small class="text-success">(Save 20%)</small></label>
   </div>
 
-  <!-- Plans -->
   <div class="container">
     <div class="row g-4 justify-content-center">
-      <!-- Basic -->
       <div class="col-md-4">
         <div class="plan-card">
           <div class="plan-header">
@@ -53,8 +51,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Standard -->
       <div class="col-md-4">
         <div class="plan-card">
           <div class="plan-header">
@@ -72,8 +68,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Premium -->
       <div class="col-md-4">
         <div class="plan-card">
           <div class="plan-header">
@@ -96,9 +90,9 @@
 
   <h2 class="text-center mt-5">Table version 1</h2>
 
-  <!-- Comparison Table -->
   <div class="table-section">
     <h4 class="text-center mb-4">Compare All Features</h4>
+    <div class="table-responsive">
     <table class="table table-bordered align-middle">
       <thead>
         <tr>
@@ -116,8 +110,8 @@
         <tr><td>Referral Bonus</td><td>2%</td><td>4%</td><td>6%</td></tr>
       </tbody>
     </table>
+    </div>
   </div>
-
 
 <h2 class="text-center mt-4">Table version 2</h2>
 
@@ -462,5 +456,11 @@
   font-size: 36px;
   font-weight: 700;
   color: #0d6efd;
+}
+@media screen and (max-width: 600px) {
+  .table-section{
+    padding: 2rem 12px !important;
+  }
+  
 }
 </style>

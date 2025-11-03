@@ -18,7 +18,7 @@
 
 <section class="section section-primary">
 	<div class="container">
-		<div class="d-flex align-items-center justify-content-between">
+		<div class="d-flex d-md-block align-items-center justify-content-between">
 			<h2 class="mb-0">Dashboard</h2>
 			<div class="d-flex gap-2">
 				<a href="#" class="btn btn-light text-dark" data-create-ad><i class="fa fa-plus"></i> Create Ad</a>
@@ -137,6 +137,14 @@
 }
 .small span:last-child{
 	background-color: #deb0fcff;
+}
+@media screen and (max-width: 420px) {
+	.d-md-block{
+	display: block !important;
+}
+.d-md-block h2{
+	margin-bottom: 20px !important;
+}
 }
 
 </style>

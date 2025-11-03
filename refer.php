@@ -267,4 +267,14 @@
     .animate {
       animation: fadeInUp 1s ease forwards;
     }
+
+    @media screen and (max-width: 600px) {
+    .refer-header h1{
+        font-size: 1.8rem;
+    }
+      
+    }
+
+
+
   </style>

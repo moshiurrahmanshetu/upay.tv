@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Blogs</title>
+	<title>My Campaign</title>
 	<meta name="description" content="Learn more about uPAY.tv and our mission.">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -87,8 +87,8 @@
 
           <!-- Buttons -->
           <div class="col-12 text-center mt-4">
-            <button type="submit" class="btn btn-gradient btn-lg px-5 me-2">Create Campaign</button>
-            <button type="reset" class="btn btn-outline-secondary btn-lg px-5">Reset</button>
+            <button type="submit" class="btn btn-gradient btn-lg px-5 me-2 mb-3">Create Campaign</button>
+            <button type="reset" class="btn btn-outline-secondary btn-lg px-5 mb-3">Reset</button>
           </div>
         </div>
       </form>
